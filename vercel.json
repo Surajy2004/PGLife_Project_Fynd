@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "version": 2,
   "name": "pglife-website",
   "builds": [
@@ -9,14 +8,3 @@
      { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
-=======
-   "version": 2,
-   "name": "music-album",
-   "builds": [
-      { "src": "app.js", "use": "@vercel/node" }
-   ],
-   "routes": [
-      { "src": "/(.*)", "dest": "/app.js" }
-   ]
-}
->>>>>>> 945a1147058f712b3c97eaaff718150be244778d
