@@ -13,6 +13,7 @@ function App() {
     (async () => {
       const res = await fetch(`${serverDomain}/product`);
       const resData = await res.json();
+      // console.log(resData);
       dispatch(setDataProduct(resData));
     })();
   }, [dispatch]);
